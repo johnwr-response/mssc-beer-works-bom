@@ -25,9 +25,9 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.github.sfg-beer-works</groupId>
+    <groupId>no.responseweb.sfg-beer-works</groupId>
     <artifactId>sfg-beer-works-bom</artifactId>
-    <version>1.0.27-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <description>Parent Project for SFG Beer Works Projects</description>
@@ -69,7 +69,7 @@
         <spring-boot-admin.version>2.2.3</spring-boot-admin.version>
         <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
         <!--set this to your docker acct name-->
-        <docker.image.prefix>sfgbeerworks</docker.image.prefix>
+        <docker.image.prefix>johnwr</docker.image.prefix>
         <!--Set to name of project-->
         <docker.image.name>${project.artifactId}</docker.image.name>
     </properties>
@@ -549,14 +549,14 @@
     </profiles>
 
     <scm>
-        <connection>scm:git:git@github.com:sfg-beer-works/sfg-beer-works-bom.git</connection>
-        <developerConnection>scm:git:git@github.com:sfg-beer-works/sfg-beer-works-bom.git</developerConnection>
-        <url>https://github.com/sfg-beer-works/sfg-beer-works-bom</url>
+        <connection>scm:git:git@github.com:johnwr-response/mssc-beer-works-bom.git</connection>
+        <developerConnection>scm:git:git@github.com:johnwr-response/mssc-beer-works-bom.git</developerConnection>
+        <url>https://github.com/johnwr-response/mssc-beer-works-bom</url>
         <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
-        <url>https://github.com/sfg-beer-works/sfg-beer-works/issues</url>
+        <url>https://github.com/johnwr-response/mssc-beer-works-bom/issues</url>
         <system>GitHub</system>
     </issueManagement>
 
